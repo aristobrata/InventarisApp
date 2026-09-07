@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palet utama -->
+    <color name="primary">#2E5077</color>
+    <color name="primary_dark">#16324F</color>
+    <color name="primary_light">#4A7098</color>
+    <color name="accent">#4FD1A5</color>
+    <color name="accent_dark">#2FAE84</color>
+
+    <!-- Latar & permukaan -->
+    <color name="background">#F3F6FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_muted">#EEF2F7</color>
+
+    <!-- Teks -->
+    <color name="text_primary">#141111</color>
+    <color name="text_secondary">#697485</color>
+    <color name="text_disabled">#A7B0BC</color>
+
+    <!-- Status / semantik -->
+    <color name="success">#2FAE84</color>
+    <color name="success_bg">#E3F7EF</color>
+    <color name="info">#3A7BD5</color>
+    <color name="info_bg">#E7F0FC</color>
+    <color name="warning">#E0A93E</color>
+    <color name="warning_bg">#FBF1DD</color>
+    <color name="danger">#E15656</color>
+    <color name="danger_bg">#FCE9E9</color>
+    <color name="neutral">#8A94A6</color>
+    <color name="neutral_bg">#EEF1F5</color>
+
+    <!-- Tipe barang -->
+    <color name="tipe_pinjam">#3A7BD5</color>
+    <color name="tipe_pinjam_bg">#E7F0FC</color>
+    <color name="tipe_habis_pakai">#B15FCF</color>
+    <color name="tipe_habis_pakai_bg">#F3E8F9</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#E3E8EF</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Cari"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/action_tambah_stok"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Tambah Stok"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_riwayat"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Riwayat Transaksi"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_laporan"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Laporan Excel"
+        app:showAsAction="never" />
+
+</menu>

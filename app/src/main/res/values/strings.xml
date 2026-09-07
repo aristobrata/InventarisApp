@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Inventaris Peminjaman</string>
+    <string name="title_form_barang">Form Barang</string>
+    <string name="title_peminjaman">Pinjam Barang</string>
+    <string name="title_ambil_barang">Ambil Barang Habis Pakai</string>
+    <string name="title_riwayat">Riwayat Transaksi</string>
+    <string name="title_tambah_stok">Tambah Stok</string>
+    <string name="title_laporan">Laporan Excel</string>
+</resources>

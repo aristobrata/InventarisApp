@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Tidak ada permission WRITE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE.
+        Ekspor Excel memakai MediaStore (Scoped Storage) sehingga aman
+        tanpa izin runtime khusus di Android 10+ (API 29+).
+    -->
+
+    <application
+        android:name=".InventarisApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventarisApp"
+        tools:targetApi="34">
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.barang.TambahEditBarangActivity"
+            android:exported="false"
+            android:label="@string/title_form_barang" />
+
+        <activity
+            android:name=".ui.transaksi.PeminjamanActivity"
+            android:exported="false"
+            android:label="@string/title_peminjaman" />
+
+        <activity
+            android:name=".ui.transaksi.AmbilBarangActivity"
+            android:exported="false"
+            android:label="@string/title_ambil_barang" />
+
+        <activity
+            android:name=".ui.transaksi.RiwayatTransaksiActivity"
+            android:exported="false"
+            android:label="@string/title_riwayat" />
+
+        <activity
+            android:name=".ui.stok.TambahStokActivity"
+            android:exported="false"
+            android:label="@string/title_tambah_stok" />
+
+        <activity
+            android:name=".ui.laporan.LaporanActivity"
+            android:exported="false"
+            android:label="@string/title_laporan" />
+
+    </application>
+
+</manifest>
